@@ -1,0 +1,14 @@
+﻿using GamingApp.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GamingApp.Abstract
+{
+    public interface ICustomerCheckService
+    {
+        bool CheckCustomer(Customer customer);
+    }
+}
